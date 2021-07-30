@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f273d;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .Header-logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 90px;
+  }
+    
+  .Header-title {
+    position: absolute;
+    top: 15px;
+    left: 110px;
+    color: #fff;
+  }
+
+  @media (max-width: 700px) {
+    .Header-logo {
+      display: none;
+    }
+  }
